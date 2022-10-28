@@ -11,12 +11,7 @@ const manifest = JSON.parse(`
     "version": "0.9.0",
     "min_server_version": "5.30.0",
     "server": {
-        "executables": {
-            "linux-amd64": "server/dist/plugin-linux-amd64",
-            "darwin-amd64": "server/dist/plugin-darwin-amd64",
-            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
-        },
-        "executable": ""
+        "executable": "server/dist/plugin-darwin-arm64"
     },
     "webapp": {
         "bundle_path": "webapp/dist/main.js"
